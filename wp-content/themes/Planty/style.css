@@ -12,3 +12,122 @@
  /* == Add your own styles below this line ==
 --------------------------------------------*/
 
+body {
+  font-family: 'Syne', sans-serif;
+  font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+	width:1440px;
+	height : 80px;
+	margin: 0 auto;
+}
+.custom-logo-link {
+	margin-left :50px;
+}
+
+.menu a {
+    padding: 10px 30px; /* Ajout de padding autour des liens pour augmenter la surface cliquable */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;  
+}
+
+.admin-link a {
+	margin-right:30px;
+}
+
+.menu-menu-1-container ul {
+    display: flex;
+    list-style-type: none; /* Supprime les puces */
+    padding: 0; /* Enlève le padding par défaut des ul */
+    margin: 0; /* Enlève le margin par défaut des ul */
+    align-items: center; 
+}
+	
+
+.menu-order a {
+    background-color: #DC9F96; /* Couleur de fond rose pâle */
+    color: #ffffff;           
+    padding: 32px 61px;       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+} 
+
+
+.menu-order a:hover, .menu-order a:focus {
+    background-color: #C02E44; /* Couleur de fond différente au survol et au focus */
+}
+
+/* Media Queries */
+/* Tablettes */
+@media (max-width : 1440px) {
+	
+	header {
+		width:100%;
+	}
+}
+	
+
+
+/* Petites tablettes et grands téléphones */
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    .custom-logo-link {
+        margin-left: 0;
+		
+    }
+	.custom-logo {
+		margin-bottom: 50px;
+	}
+    .menu-menu-1-container ul {
+		
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+	
+	.menu-menu-1-container ul li {
+		margin-bottom :20px;
+		
+	}
+    .menu a {
+        width: 100%;
+        text-align: center;
+    }
+    .menu-order a {
+        padding: 15px 30px;
+        width: 100%;
+    }
+	
+	.admin-link a {
+	margin-right:0;
+}
+}
+
+/* Petits téléphones */
+@media (max-width: 480px) {
+   
+    header {
+        padding: 10px;
+    }
+    .menu a {
+        
+        font-size: 14px;
+    }
+    .menu-order a {
+       
+        width: 100%;
+    }
+}
