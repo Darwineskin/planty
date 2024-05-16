@@ -66,6 +66,24 @@ header {
     background-color: #C02E44; /* Couleur de fond différente au survol et au focus */
 }
 
+/* Leaf and can page home */
+
+.illustration-container {
+	position: relative !important;
+	
+}
+
+footer{
+	text-align:center;
+	margin-bottom :30px;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
 /* Media Queries */
 /* Tablettes */
 @media (max-width : 1440px) {
