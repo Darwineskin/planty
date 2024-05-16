@@ -34,11 +34,16 @@ header {
     padding: 10px 30px; /* Ajout de padding autour des liens pour augmenter la surface cliquable */
     text-decoration: none;
     color: #333;
-    font-weight: bold;  
+    font-weight: 400;  
+}
+
+.menu a:hover, .menu a:focus{
+	font-weight: 700; 
 }
 
 .admin-link a {
 	margin-right:30px;
+	
 }
 
 .menu-menu-1-container ul {
@@ -82,14 +87,38 @@ footer a {
 	color: black;
 }
 
+/* Formulaire de contact*/
+
+.btn-submit-contact {
+	border-radius: 5px !important;
+	width: 198px !important;
+    height: 55px !important;
+}
+
+.forminator-field:has(.btn-submit-contact) 
+{
+	text-align:center;
+}
+
+.forminator-module-edit-link{
+	display:none;
+}
+
+input[type=text], input[type=email] {
+	height:71px !important;
+}
 
 
 /* Media Queries */
 /* Tablettes */
 @media (max-width : 1440px) {
 	
-	header {
+header {
 		width:100%;
+	}
+	
+	.leaf-team, .leaf-contact {
+		display:none;
 	}
 }
 	
