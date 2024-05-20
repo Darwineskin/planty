@@ -106,6 +106,7 @@ footer a {
 	border-radius: 5px !important;
 	width: 198px !important;
     height: 55px !important;
+	box-shadow: none !important;
 }
 
 .forminator-field:has(.btn-submit-contact), .forminator-field:has(.btn-submit-order)
@@ -132,7 +133,7 @@ input[type=number]{
 	border-radius: 0px !important;
 }
 
-.forminator-repeater-label{
+.forminator-repeater-label {
 	font-size:30px !important;
 }
 
@@ -145,11 +146,12 @@ input[type=number]{
 	margin:20px 0  30px !important;
 }
 
-.btn-submit-order{
+.btn-submit-order {
 	border-radius: 5px !important;
 	width: 198px !important;
     height: 55px !important;
 	margin-top:40px !important;
+	box-shadow:none !important;
 }
 
 
