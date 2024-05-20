@@ -195,11 +195,11 @@ input[type=number] {
 /* small desktop */
 @media (max-width : 1440px) {
 	
-header {
+    header {
 		width:100%;
 	}
 	
-	.leaf-team, .leaf-contact {
+	.leaf-contact {
 		display:none;
 	}
 }
